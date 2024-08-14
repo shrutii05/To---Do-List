@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do Task List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>To-Do Task List</h1>
+    <div class="task-list">
+      <ul id="task-list">
+        <!-- tasks will be added here -->
+      </ul>
+    </div>
+    <div class="input-container">
+      <input type="text" id="task-input" placeholder="Add new task">
+      <button id="add-task-btn">Add Task</button>
+      
+    </div>
+    <div class="options-container">
+      <button id="undo-btn">Undo</button>
+      <button id="redo-btn">Redo</button>
+      <select id="font-select">
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Impact">Impact</option>
+        <option value="Lucida Console">Lucida Console</option>
+        <option value="Palatino Linotype">Palatino Linotype</option>
+      </select>
+      <select id="size-select">
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+        <option value="22">22</option>
+        <option value="24">24</option>
+        <option value="26">26</option>
+        <option value="28">28</option>
+        <option value="30">30</option>
+        <option value="32">32</option>
+      </select>
+      <input type="color" id="color-picker" value="#000000">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
